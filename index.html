@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="logo">
+          <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d)">
+            <circle cx="23" cy="22" r="15" fill="white"/>
+            </g>
+            <g filter="url(#filter1_d)">
+            <rect x="12.2588" y="5" width="40.3297" height="8.86367" rx="4.43183" transform="rotate(44.9201 12.2588 5)" fill="#0193F3"/>
+            </g>
+            <defs>
+            <filter id="filter0_d" x="4" y="4" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+            </filter>
+            <filter id="filter1_d" x="0" y="0" width="46.816" height="46.7539" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation="3"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.00392157 0 0 0 0 0.576471 0 0 0 0 0.952941 0 0 0 0.5 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+            </filter>
+            </defs>
+            </svg>
+            Portfolio
+        </div>
+        <div class="nav-menu">
+          <ul class="nav-menu__list">
+            <li class="nav-menu__item">
+              <a href="#home" id="header-link" class="nav-menu__link">Home</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#about" id="about-link" class="nav-menu__link">About</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#works" id="works-link" class="nav-menu__link">Works</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#skills" id="skills-link" class="nav-menu__link">Skills</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#contacts" id="contacts-link" class="nav-menu__link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="overlay"></div>
+        <div class="nav__toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+    <label class="switch">
+      <input class="switch__input" type="checkbox" data-theme-toggle>
+      <span class="switch__slider"></span>
+    </label>
+  </header>
+  <section id="home">
+    <div class="container">
+      <div class="hero">
+        <div class="hero-info">
+          <h1 class="hero-info__title .anim-typewriter">Frontend Dev</h1>
+          <span class="hero-info__subtitle">Hello My name’s Aktan</span>
+          <p class="hero-info__desc">
+            I have been programming a year ago. From childhood he was fond of computers. But he began to study it professionally after leaving school. I chose frontend, loved websites very much and dreamed of creating my own website as a child.
+          </p>
+          <a href="#" class="button button--hero">Get more</a>
+        </div>
+        <div class="hero-image">
+          <img src="./images/hero-img.png" alt="Hero Image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container">
+      <div class="section-title">About</div>
+      <div class="about">
+        <div class="about-info">
+          <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 👋 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="./images/about-image.png" alt="About Image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="works">
+    <div class="container">
+      <div class="section-title">Works</div>
+      <div class="works swiper-container">
+        <div class="swiper-wrapper">
+          <div class="works-item swiper-slide">
+            <img src="./images/card 1.png" alt="Card 1" class="works-item__image">
+            <div class="works-item__link">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <div class="works-item swiper-slide">
+            <img src="./images/card 1.png" alt="Card 1" class="works-item__image">
+            <div class="works-item__link">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <div class="works-item swiper-slide">
+            <img src="./images/card 1.png" alt="Card 1" class="works-item__image">
+            <div class="works-item__link">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <div class="works-item swiper-slide">
+            <img src="./images/card 1.png" alt="Card 1" class="works-item__image">
+            <div class="works-item__link">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <div class="works-item swiper-slide">
+            <img src="./images/card 1.png" alt="Card 1" class="works-item__image">
+            <div class="works-item__link">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="container">
+      <div class="section-title">Skills</div>
+      <div class="skills">
+        <div class="skills-item">
+          <span class="skills-item__name">HTML</span>
+          <div class="skills-item__progress">
+            <div class="skills-item__progress--active" data-per="90"></div>
+          </div>
+        </div>
+        <div class="skills-item">
+          <span class="skills-item__name">CSS</span>
+          <div class="skills-item__progress">
+            <div class="skills-item__progress--active" data-per="70"></div>
+          </div>
+        </div>
+        <div class="skills-item">
+          <span class="skills-item__name">JavaScript</span>
+          <div class="skills-item__progress">
+            <div class="skills-item__progress--active" data-per="60"></div>
+          </div>
+        </div>
+        <div class="skills-item">
+          <span class="skills-item__name">Python</span>
+          <div class="skills-item__progress">
+            <div class="skills-item__progress--active" data-per="40"></div>
+          </div>
+        </div>
+        <div class="skills-item">
+          <span class="skills-item__name">Design</span>
+          <div class="skills-item__progress">
+            <div class="skills-item__progress--active" data-per="35"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contacts">
+    <div class="container">
+      <div class="section-title">Contacts</div>
+      <div class="contacts">
+        <div class="contacts-info">
+          <div class="contacts-info-list">
+            <div class="contacts-info-list__item">
+              <i class="ri-global-line"></i>
+              <span>KG, Bishkek</span>
+            </div>
+            <div class="contacts-info-list__item">
+              <i class="ri-phone-line"></i>
+              <span>+996(709)-66-20-30</span>
+            </div>
+            <div class="contacts-info-list__item">
+              <i class="ri-mail-line"></i>
+              <span>aktan.ishenkulov.kk@gmail.com</span>
+            </div>
+          </div>
+          <div class="contacts-info-socials">
+            <div class="contacts-info-socials__item"><i class="ri-github-fill"></i></div>
+            <div class="contacts-info-socials__item"><i class="ri-instagram-fill"></i></div>
+            <div class="contacts-info-socials__item"><i class="ri-telegram-fill"></i></div>
+          </div>
+        </div>
+        <form class="contacts-form">
+          <div class="contacts-form__group">
+            <input type="text" name="email" placeholder="Email">
+          </div>
+          <div class="contacts-form__group">
+            <input type="text" name="name" placeholder="Your name">
+          </div>
+          <div class="contacts-form__group">
+            <input type="text" class="contacts-form__group--textarea" name="message" placeholder="Type your message">
+          </div>
+          <button class="button button--contacts">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="container">
+      <div class="footer">
+        <div class="footer-nav-links">
+          <div class="logo logo--footer">
+            <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d)">
+              <circle cx="23" cy="22" r="15" fill="white"/>
+              </g>
+              <g filter="url(#filter1_d)">
+              <rect x="12.2588" y="5" width="40.3297" height="8.86367" rx="4.43183" transform="rotate(44.9201 12.2588 5)" fill="#0193F3"/>
+              </g>
+              <defs>
+              <filter id="filter0_d" x="4" y="4" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+              <feOffset dy="1"/>
+              <feGaussianBlur stdDeviation="2"/>
+              <feComposite in2="hardAlpha" operator="out"/>
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+              </filter>
+              <filter id="filter1_d" x="0" y="0" width="46.816" height="46.7539" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+              <feOffset dy="1"/>
+              <feGaussianBlur stdDeviation="3"/>
+              <feComposite in2="hardAlpha" operator="out"/>
+              <feColorMatrix type="matrix" values="0 0 0 0 0.00392157 0 0 0 0 0.576471 0 0 0 0 0.952941 0 0 0 0.5 0"/>
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+              </filter>
+              </defs>
+              </svg>
+              Portfolio
+          </div>
+          <ul class="footer-nav-links__list">
+            <li class="footer-nav-links__item">
+              <a href="#home" class="footer-nav-links__link">Home</a>
+            </li>
+            <li class="footer-nav-links__item">
+              <a href="#home" class="footer-nav-links__link">About</a>
+            </li>
+            <li class="footer-nav-links__item">
+              <a href="#home" class="footer-nav-links__link">Works</a>
+            </li>
+            <li class="footer-nav-links__item">
+              <a href="#home" class="footer-nav-links__link">Skills</a>
+            </li>
+            <li class="footer-nav-links__item">
+              <a href="#home" class="footer-nav-links__link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-contacts">
+          <span>Contacts</span>
+          <div class="footer-contacts__wrapper">
+            <ul>
+              <li>
+                Kg, Bishekek
+              </li>
+              <li>
+                +996(709)-66-20-30
+              </li>
+              <li>
+                aktan.ishenkulov.kk@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-socials">
+          <span>Socials</span>
+          <div class="footer-socials__wrapper">
+            <div class="footer-socials__item">
+              <i class="ri-github-fill"></i>
+            </div>
+            <div class="footer-socials__item">
+              <i class="ri-instagram-fill"></i>
+            </div>
+            <div class="footer-socials__item">
+              <i class="ri-telegram-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="scrollup">
+    <i class="ri-arrow-up-s-line"></i>
+  </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script type="module">
+    import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+    
+    const swiper = new Swiper('.swiper-container', {
+      direction: 'horizontal',
+      loop: true,
+      slidesPerView: 4,
+      spaceBetween: 10,
+      320: {
+      slidesPerView: 2,
+      spaceBetween: 20
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 30
+      },
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 3,
+        spaceBetween: 40
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 40
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      }
+    })
+  </script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
